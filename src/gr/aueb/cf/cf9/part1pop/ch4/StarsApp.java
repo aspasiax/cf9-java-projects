@@ -1,7 +1,7 @@
 package gr.aueb.cf.cf9.part1pop.ch4;
 
 /**
- * Demonstrates various star (*) printing patterns using {@code for} loops.
+ * Demonstrates various star (*) printing patterns using for loops.
  * This application generates the following patterns:
  * Horizontal line of 10 stars.
  * Vertical line of 10 stars.
