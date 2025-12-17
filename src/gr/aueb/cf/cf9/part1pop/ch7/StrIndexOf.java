@@ -33,7 +33,7 @@ public class StrIndexOf {
     /**
      * Extracts the extension from a filename.
      * e.g., "coding.txt" -> "txt"
-     * * @param fileName the name of the file
+     * @param fileName the name of the file
      * @return the extension or an empty string if no extension is found
      */
     public static String getExtension(String fileName) {
