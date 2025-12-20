@@ -1,1 +1,1 @@
-# my-java-projects
+Codind Factory 9 AUEB Java Projects
