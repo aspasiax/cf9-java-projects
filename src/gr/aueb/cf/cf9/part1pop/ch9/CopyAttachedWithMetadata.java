@@ -19,7 +19,7 @@ public class CopyAttachedWithMetadata {
         String userInputFile;
         String extension = "";
 
-        System.out.println("Please insert the input file name (e.g., auebLogo.png):");
+        System.out.println("Please insert the input file name:");
         userInputFile = in.nextLine();
 
         File sourceFile = new File(fileSystemPath + userInputFile);
