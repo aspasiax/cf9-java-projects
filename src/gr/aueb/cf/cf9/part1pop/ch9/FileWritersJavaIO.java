@@ -15,7 +15,7 @@ public class FileWritersJavaIO {
     public static void main(String[] args) {
         // Using relative paths makes the code portable (runs on any PC)
         // The file is created in the project root folder.
-        File testFile = new File("test-output.txt");
+        File testFile = new File("src/gr/aueb/cf/cf9/part1pop/ch9/test.txt");
 
         try {
             // 1. Basic FileWriter
@@ -26,7 +26,7 @@ public class FileWritersJavaIO {
 
             // 3. PrintStream (Flexible usage)
             // We can write to a file
-            try (PrintStream filePs = new PrintStream("test-printstream.txt", StandardCharsets.UTF_8)) {
+            try (PrintStream filePs = new PrintStream("testFile", StandardCharsets.UTF_8)) {
                 sayHello(filePs);
             }
             // or to the console using the same method
