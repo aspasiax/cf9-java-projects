@@ -37,7 +37,7 @@ public class TicTacToe {
             int row = getValidInput(in, "Row (1-3): ") - 1;
             int col = getValidInput(in, "Column (1-3): ") - 1;
 
-            // Business Rule: Check if move is valid (within bounds logic is handled, need to check emptiness)
+            // Check if move is valid (within bounds logic is handled, need to check emptiness)
             if (board[row][col] != EMPTY) {
                 System.out.println("Error: This cell is already occupied! Try again.");
                 continue; // Skip the rest and restart the loop
