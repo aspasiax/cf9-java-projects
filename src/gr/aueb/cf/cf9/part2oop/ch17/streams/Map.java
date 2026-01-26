@@ -55,7 +55,7 @@ public class Map {
         System.out.println("\nTotal Warehouse Value: ");
         double totalValue = products.stream()
                 .mapToDouble(p -> p.getPrice() * p.getQuantity()) // Returns DoubleStream
-                .sum(); // Efficient summation without boxing
+                .sum();
 
         System.out.printf("Total Value: %.2f€%n", totalValue);
     }
