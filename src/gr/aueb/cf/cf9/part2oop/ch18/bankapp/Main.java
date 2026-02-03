@@ -16,7 +16,6 @@ import java.util.Scanner;
 
 /**
  * The Entry Point of the Banking Application.
- * <p>
  * This class is responsible for wiring the application components (DAO, Service, Controller)
  * and providing a Console User Interface (UI) for interaction.
  */
