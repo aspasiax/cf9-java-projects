@@ -16,7 +16,7 @@ public class RegEx {
         System.out.println("Reversed: " + reverse(name));
     }
 
-    // --- Simple Literals ---
+    // Simple Literals
     public static boolean isHello(String s) {
         return s.matches("Hello");
     }
